@@ -1,4 +1,4 @@
-
+<?php
 $process = new Process();
 
 if ($process->create()) {
@@ -12,3 +12,4 @@ if ($process->create()) {
     echo "Child Exiting\n";
     exit;
 }
+?>
